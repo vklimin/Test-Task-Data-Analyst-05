@@ -50,7 +50,7 @@ def is_isomorphic(s: str, t: str) -> bool:
     return True
 ```
 
-### ✅ Примеры использования
+### 🧪 Тесты
 
 ```python
 print(is_isomorphic('egg', 'add'))     # True
