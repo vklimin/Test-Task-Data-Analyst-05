@@ -131,9 +131,12 @@ create table transaction
 ### Реализация
 
 ```sql
-SELECT a.client_id
-FROM account AS a
-LEFT JOIN transaction AS t
+SELECT
+    a.client_id
+FROM
+    account AS a
+LEFT JOIN 
+    transaction AS t
     ON t.account_id = a.id
 WHERE
     t.type = 'PUR'
